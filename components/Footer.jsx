@@ -15,7 +15,7 @@ export default function Footer() {
         <div>
           <div className="mb-4 space-y-2">
             <p>Address :</p>
-            <p>B-99, Panchsheel Vihar, New Delhi. 110017</p>
+            <p>Indrapuri, Patna , Bihar - 800024</p>
           </div>
           <div>
             <p>Contact: </p>
