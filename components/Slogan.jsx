@@ -1,6 +1,6 @@
 export default function Slogan() {
   return (
-    <div className="w-screen h-full bg-gray-50 items-center justify-center flex">
+    <div className="w-full h-full bg-gray-50 items-center justify-center flex">
       <div className="max-w-5xl grid grid-cols-2 my-10">
         <div>
           <h1 className="text-5xl mb-10">Sustainable EV in India.</h1>

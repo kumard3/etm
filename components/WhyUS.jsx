@@ -1,6 +1,6 @@
 export default function WhyUS() {
   return (
-    <div className="bg-black w-screen h-full items-center justify-center flex flex-col text-white p-10">
+    <div className="bg-black w-full h-full items-center justify-center flex flex-col text-white p-10">
       <h1 className="text-8xl mb-8">Why ETM ?</h1>
       <div className="grid grid-cols-2 gap-10">
         <div className="flex flex-col">
