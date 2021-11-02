@@ -1,22 +1,15 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
 
 import { Popover, Transition } from "@headlessui/react";
 import {
-  BookmarkAltIcon,
-  CalendarIcon,
   ChartBarIcon,
   CursorClickIcon,
   MenuIcon,
-  PhoneIcon,
-  PlayIcon,
-  RefreshIcon,
   ShieldCheckIcon,
-  SupportIcon,
   ViewGridIcon,
   XIcon,
 } from "@heroicons/react/outline";
-import { ChevronDownIcon } from "@heroicons/react/solid";
+
 import Link from "next/link";
 
 const solutions = [
@@ -45,7 +38,7 @@ const solutions = [
 
 export default function Nav() {
   return (
-    <Popover className="sticky top-0 z-10 drop-shadow-md bg-black text-white">
+    <Popover className="sticky top-0 z-20 drop-shadow-md bg-backBlack text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
         <div className="flex justify-between items-center   py-6 sm:justify-between sm:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
